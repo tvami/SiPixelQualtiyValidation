@@ -24,10 +24,10 @@ process.PoolDBOutputService = cms.Service("PoolDBOutputService",
         authenticationPath = cms.untracked.string('')
     ),
     timetype = cms.untracked.string('runnumber'),
-    connect = cms.string('sqlite_file:SiPixelQuality_phase1_v01_May2.db'),
+    connect = cms.string('sqlite_file:SiPixelQuality_phase1_2017_v1.db'),
     toPut = cms.VPSet(cms.PSet(
         record = cms.string('SiPixelQualityFromDbRcd'),
-        tag = cms.string('SiPixelQuality_phase1_v01_May2')
+        tag = cms.string('SiPixelQuality_phase1_2017_v1')
     ))
 )
 
